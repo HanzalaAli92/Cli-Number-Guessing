@@ -2,9 +2,9 @@
 
 import inquirer from "inquirer";
 
-// 1) Computet will generate a random number [Done]
+// 1) Computer will generate a random number [Done]
 
-// 2) User input for guessinf number [Done]
+// 2) User input for guessing number [Done]
 
 // 3) Compare user input with computer generated number and show result  [Done]
 
@@ -14,7 +14,7 @@ let answers  =  await inquirer.prompt([
     {
      name: "userGuessedNumber",
      type: "number",
-     message: "Please enter your gussed number between 1-6: ",
+     message: "Please enter your guessed number between 1-6: ",
     },
 ]);
 
